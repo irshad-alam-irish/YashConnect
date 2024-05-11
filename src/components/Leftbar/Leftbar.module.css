@@ -1,0 +1,56 @@
+.left{
+    flex: 2;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+
+}
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.items img{
+    height: 30px;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tags{
+    font-size: 14px;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

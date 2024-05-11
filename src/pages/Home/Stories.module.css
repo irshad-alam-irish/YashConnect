@@ -1,0 +1,51 @@
+.Stories {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.storyItems {
+  display: flex;
+  position: relative;
+}
+.user {
+  position: relative;
+}
+.user img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.user .span1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.user .span2 {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.storyItems img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.storyItems span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
